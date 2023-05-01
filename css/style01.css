@@ -59,7 +59,7 @@
 
 @font-face{
     font-family: jenalavin;
-    src: url(/css/fonts/Jenalavin\ Regular\ 400.ttf);
+    src: url('/css/fonts/Jenalavin\ Regular\ 400.ttf');
 }
 
 @font-face{
