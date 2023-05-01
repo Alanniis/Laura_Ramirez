@@ -19,7 +19,7 @@
 
     @font-face{
         font-family: sabreen;
-        src: url(/css/fonts/Sabreen\ Regular\ Demo\ 400.ttf);
+        src: url('../css/fonts/Sabreen\ Regular\ Demo\ 400.ttf');
     }
     
     .letter-nav{
@@ -29,7 +29,7 @@
 
     @font-face{
       font-family: vanily;
-      src: url(/css/fonts/Venily\ 400.otf);
+      src: url('../css/fonts/Venily\ 400.otf');
   }
   
   .titulo{
@@ -39,22 +39,22 @@
 
   @font-face{
     font-family: butter;
-    src: url(/css/fonts/Butter\ Chicken\ 400.otf);
+    src: url('../css/fonts/Butter\ Chicken\ 400.otf');
 }
 
 @font-face{
     font-family: saturday;
-    src: url(/css/fonts/Saturday\ August\ 400.otf);
+    src: url('../css/fonts/Saturday\ August\ 400.otf');
 }
 
 @font-face{
     font-family: brighton;
-    src: url(/css/fonts/Brighton\ vintage\ Regular\ 400.otf);
+    src: url('../css/fonts/Brighton\ vintage\ Regular\ 400.otf');
 }
 
 @font-face{
     font-family: bedger;
-    src: url(/css/fonts/Bedger\ Regular\ 400.otf);
+    src: url('../css/fonts/Bedger\ Regular\ 400.otf');
 }
 
 @font-face{
@@ -64,28 +64,28 @@
 
 @font-face{
     font-family: hafigde;
-    src: url(/css/fonts/Hafigde\ 400.otf);
+    src: url('../css/fonts/Hafigde\ 400.otf');
 }
 @font-face{
     font-family: banerton;
-    src: url(/css/fonts/BanertonDemo\ 400.otf);
+    src: url('../css/fonts/BanertonDemo\ 400.otf');
 }
 @font-face{
     font-family: boldest;
-    src: url(/css/fonts/Boldest\ Romance\ Personal\ Use\ 400.otf);
+    src: url('../css/fonts/Boldest\ Romance\ Personal\ Use\ 400.otf');
 }
 @font-face{
     font-family: raspberie;
-    src: url(/css/fonts/Raspberie\ Regular\ 400.ttf);
+    src: url('../css/fonts/Raspberie\ Regular\ 400.ttf');
 }
 @font-face{
     font-family: fiesta;
-    src: url(/css/fonts/La\ Fiesta\ 400.ttf);
+    src: url('../css/fonts/La\ Fiesta\ 400.ttf');
 }
 
 @font-face{
     font-family: amsterdam;
-    src: url(./fonts/amsterdam-four.ttf);
+    src: url('../css/fonts/amsterdam-four.ttf');
     
 }
 /*GENERALES*/
@@ -200,7 +200,7 @@
     line-height: 90px;
     color: var(--orange);
     margin-bottom: 30px;
-    font-family: vanily;
+    font-family: jenalavin;
     
  }
 
