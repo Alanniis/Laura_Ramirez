@@ -1,0 +1,274 @@
+ /* General*/
+ :root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --purple: #EBC4FB;
+    --blue-light: #A4F1F3;
+    --grey: #5C5C5E ;
+    --blue-icon: #1f3251;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+  } 
+
+
+/*Acerca de*/
+
+.acerca img{
+   max-width: 100%;
+   max-height: 70vh;
+   border-radius: 5%;
+   
+}
+
+/*Mi experiencia*/
+
+#experiencia, #proyectos,
+#proyectos, #conocimientos,
+#contacto{
+
+  padding-top: 5%;
+}
+
+#experiencia img{
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 2%;
+  margin: 5%;
+}
+
+#conocimientos img{
+  width: 70px;
+  height: 70px;
+}
+.texto-alineado{
+  display:flex;
+  justify-content: center;
+  align-items: center
+}
+
+#carrusel{
+  padding-top: 10%;
+}
+
+/* PROYECTOS */
+#proyectos img{
+  max-width: 100%;
+  max-height: 70vh;
+  object-fit: cover;
+}
+
+.card {
+        
+  overflow: hidden;
+  object-fit: cover;
+} 
+
+#cont-img img{
+  -webkit-transition:all 4s ease; /* Safari y Chrome */
+  -moz-transition:all 4s ease; /* Firefox */
+  -o-transition:all 4s ease; /* IE 9 */
+  -ms-transition:all 4s ease; /* Opera */
+  width:100%;
+  }
+  
+  
+  #cont-img:hover img {
+      -webkit-transform:scale(1.25);
+      -moz-transform:scale(1.25);
+      -ms-transform:scale(1.25);
+      -o-transform:scale(1.25);
+      transform:scale(1.25);
+
+      
+      }
+  
+
+
+
+#cont-img .overlay-sec{
+
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white; /* TEXTO*/
+  z-index: 1;
+}
+
+#cont-img .overlay-sec .coutainer,
+#cont-img .overlay-sec .row
+{
+  height: 100%;
+
+} 
+
+/* Contacto */
+
+#contacto i{
+  font-size: 50px;
+}
+
+/*Nav*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+    border-bottom: 1px solid var(--very-light-pink);
+    /* background-color: rgba(  255, 250, 240, 0.5 ); */
+  }
+
+  /* .menu{
+    max-width: 20%;
+    max-height: 15%;
+  } */
+
+  .menu {
+    padding-top: 20px;
+    display: none;
+  }
+
+  .navbar-left ul,
+    .navbar-right ul,
+    .nombre ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      height: 60px;
+    }
+    .navbar-left,
+    .nombre ul{
+      display: flex;
+    }
+    .navbar-left ul,
+    .nombre ul {
+      margin-left: 12px;
+    }
+    .navbar-left ul li a,
+    .navbar-right ul li a,
+    .nombre ul li {
+      text-decoration: none;
+      color: var(--grey);
+      border: 1px solid var(--white);
+      padding: 8px;
+      border-radius: 8px;
+    }
+    .navbar-left ul li a:hover,
+    .navbar-right ul li a:hover {
+      border: 1px solid var(--very-light-pink);
+      color: var(--very-light-pink);
+    }
+
+
+/*Mobile menu*/
+.mobile-menu {
+  background-color: var(--white);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 60px;
+  padding: 24px;
+}
+.mobile-menu a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: bold;
+  /* margin-bottom: 24px; */
+}
+.mobile-menu ul {
+  padding: 0;
+  margin: 24px 0 0;
+  list-style: none;
+}
+.mobile-menu ul:nth-child(1) {
+  border-bottom: 1px solid var(--very-light-pink);
+}
+.mobile-menu ul li {
+  margin-bottom: 24px;
+}
+.email {
+  font-size: var(--sm);
+  font-weight: 300 !important;
+}
+.sign-out {
+  font-size: var(--sm);
+  color: var(--hospital-green) !important;
+}
+
+
+
+
+    @media (max-width: 640px) {
+        .menu {
+          display: block;
+          z-index: 1;
+        }
+        .navbar-left ul {
+          display: none;
+        }
+        .navbar-email {
+          display: none;
+        }
+        .desktop-menu{
+          display: none;
+        }
+        .product-detail {
+          width: 100%;
+        }
+  
+        .cards-container {
+          grid-template-columns: repeat(auto-fill, 140px);
+        }
+        .product-card {
+          width: 140px;
+        }
+        .product-card img {
+          width: 140px;
+          height: 140px;
+        }
+      }
+
+      @media (min-width: 641px) {
+        .mobile-menu{
+          display: none;
+        }
+      
+      }
+
+
+      /* Fonts */
+
+    @font-face{
+        font-family: sabreen;
+        src: url(/css/fonts/Sabreen\ Regular\ Demo\ 400.ttf);
+    }
+    
+    .letter-nav{
+      font-family: sabreen;
+      
+    }
+
+    @font-face{
+      font-family: vanily;
+      src: url(/css/fonts/Venily\ 400.otf);
+  }
+  
+  .titulo{
+    padding-top: 2%;
+    font-family: vanily;
+    
+  }
+  
+
