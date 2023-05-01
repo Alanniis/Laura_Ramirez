@@ -491,7 +491,7 @@
  .fondo{
    width: 100%;
     height: 70vh; /*Sustituido por banner.js*/
-    background-image: url('../assets/fc.jpg');
+    background-image: url('../assets/fc2.jpeg');
     /* filter: grayscale(40%); */
     background-repeat: no-repeat;
     background-position: center;
