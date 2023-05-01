@@ -4,11 +4,13 @@
     --very-light-pink: #C7C7C7;
     --text-input-field: #F7F7F7;
     --hospital-green: #ACD9B2;
-    --purple: #EBC4FB;
+    --purple-light: #E5CEF4;
     --blue-light: #A4F1F3;
     --grey: #5C5C5E ;
     --blue-icon: #1f3251;
     --orange:#EC7063;
+    --purple: #BB8FCE;
+    --orange--light:#F1948A;
     --fondo-negro-light: #2A2A2D;
     --sm: 14px;
     --md: 16px;
@@ -399,9 +401,10 @@
 
   #proyectos a{
 
-    border: 0.5px solid var(--text-input-field);
+    /* border: 0.5px solid var(--text-input-field); */
     color: var(--text-input-field);
     font-size: large;
+    font-family: banerton;
   }
 
   #proyectos a:hover{
@@ -450,6 +453,7 @@
 
  .contacto #btn-enviar{
     padding-top: 15px;
+
  }
 
  #contacto{
@@ -464,7 +468,7 @@
  .contacto-redes i{
    display: inline-block;
    padding: 0 10px;
-   color: var(--fondo-negro-light);
+   color: var(--text-input-field);
    text-decoration: none;
    font-weight: 500;
    font-size: 30px;
@@ -475,6 +479,9 @@
 
  .contacto #mailto{
    color: var(--text-input-field);
+   font-family: vanily;
+   background: var(--orange);
+   border: none;
  }
 
  .contacto-redes i:hover{
@@ -484,7 +491,7 @@
  .fondo{
    width: 100%;
     height: 70vh; /*Sustituido por banner.js*/
-    background-image: url('https://lh3.googleusercontent.com/pw/AJFCJaXR_jmd9-eqlIeoHV9ZvBHc-drtPaFTZxSLGOiNcvhW8YbbwIBpSKAilgjFIKKblE2DROopUf6bFPAED2Bd_f-Nb1QYWibEzyNw-hEiB5TNYuZ9Zh7iy8nx4K0qMH75bFvljt59TNSueFFiHr8bOAsJZCv6L7iZfpAxtlvyYyK9qdLK9YIOGr2_-VWD2GNkay5Xu4J3ouusuOlQy7E5JBdEfJWkFuIx4SHGXXiO_VKMot4n00nPXn7pyaOHKTlbz9w2GShWdJVujVqfoShSVH8MNDuvL5xdu5htauLPEdqgyapQlW9ALEHpOBaAi-VX9ZwQD_lBTiDV6Mk0EIJDRdY1lmqWUmleFs0TFStzsGdKfLShVzqMxVWhxu4uzWsMG7HAUsv8dEDKN-oZWPWTQn9BeP0vcxBz8veLJ7YxvIttqkUTg5ssn_IFvXok4nggMUYUe6ZtjQUA_ItLcgGC8qzKULuI5BNTsFQSANoAsG5H2Gb1CLeyxX2DaUoRPBk1B3fvf-MkLkYNsK26uuP4-0iXSwZLES4xPCAj3kyngOyjtWmQ3iK3aUfai4A8Kvuqf7KuZsgxMCU_pVCZsojbe_bL0RJtleXbiTdo0AjUQpLP_9zkYR3xADsYZjntKXeGXRi-128KrrE_4-n29fNXiRZywVNGmkssqiKwyOv3C9Te5P14ujATz0b57Fynh7d5vf903EqKRA8-n9FB5d71Oss4srjv8xIpZVdSsdcjuujBcq_c_4OOKcZ7CKchH68UM0B1CzBtXq8sUivulKBQedWhMyoZRSeqOq3mNVb6XnKQMsGD_sc5prcWq4rG0JT-5k3UXbsePlfDwWYIv7bdz0lICdwY4qtuYE6KLKRzTgO-C6C5tUjzt6a8wbsLj8NGDKydGxUNWsvEfM8i6KRdBsg=w876-h657-s-no?authuser=0');
+    background-image: url('../assets/fc.jpg');
     /* filter: grayscale(40%); */
     background-repeat: no-repeat;
     background-position: center;
