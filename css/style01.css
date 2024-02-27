@@ -122,6 +122,17 @@
     color: var(--orange);
 }
 
+.logo img{
+   width: 120px;
+   height: 40px;
+   left: 0;
+}
+
+.copy .logo img{
+   width: 130px;
+   height: 40px;
+   left: 0;
+}
  /*Botón volver arriba*/
  .btn-volver-arriba{
     display: inline-block;
@@ -504,7 +515,7 @@
   /*Pie de página*/
 
   footer{
-    background: #F3F4FA;
+    background: #FFFFFF;
     padding: 54px 0;
     text-align: center;
  }
